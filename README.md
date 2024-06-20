@@ -1,4 +1,7 @@
-# feed2thread
+# feed2thread - Syndicate your site's posts to Threads
+
+**feed2thread is for automating Threads posts, for posting to Instagram, see
+[feed2gram](https://github.com/searls/feed2gram)**
 
 I've joined the [POSSE](https://justin.searls.co/posse) and publish as much as I can
 to [justin.searls.co](https://justin.searls.co) and syndicate it elsewhere. Just
@@ -82,9 +85,9 @@ We publish a Docker image [using GitHub
 actions](https://github.com/searls/feed2thread/blob/main/.github/workflows/main.yml)
 tagged as `latest` for every new commit to the `main` branch, as well as with a
 release tag tracking every release of the gem on
-[rubygems.org](https://rubygems.org). The images are hosted [here on GitHub's
+[rubygems.org](https://rubygems.org/gems/feed2thread). The images are hosted [here on GitHub's
 container
-registry](https://github.com/searls/feed2thread/pkgs/container/feed2thread)
+registry](https://github.com/users/searls/packages/container/package/feed2threadd)
 
 
 You can also use Docker to run this on your own automation platform like Proxmox or Kubernetes.
