@@ -22,9 +22,8 @@ by how much simpler Meta made it for the Threads API:
 2. [Create an app with the Threads use case](https://developers.facebook.com/docs/development/create-an-app/threads-use-case). Make sure it has these permissions:
     * `threads_basic`
     * `threads_content_publish`
-3. Add your Threads account as a [Threads Test User](https://developers.facebook.com/docs/development/create-an-app/threads-use-case#step-8--user-tokens-for-testing), accept the Web Permissions invite, then generating a user access token
-4. Click on the test user to find its Threads User ID, noted here as a `THREADS_USER_ID`
-5. With that access token, (set here to a `THREADS_ACCESS_TOKEN` env var)
+3. Add your Threads account as a [Threads Test User](https://developers.facebook.com/docs/development/create-an-app/threads-use-case#step-8--user-tokens-for-testing), accept the Web Permissions invite, then generating a **user access token**
+4. Click on the test user to find its **Threads user ID**
 
 ## What this gem does
 
@@ -42,9 +41,9 @@ To get an idea of what this gem is doing under the hood, namely it will:
 $ gem install feed2thread
 ```
 
-Next, create a configuration file in YAML to tell feed2thread everything it needs
-to run. Make sure this file is writable, as the gem will refresh the facebook
-access token on each run:
+Next, create a configuration file in YAML to tell feed2thread your Atom feed's
+URL, your **Threads user ID** and your **user access token**. Make sure this
+file is writable, as the gem will refresh the Threads access token on each run:
 
 ```yaml
 feed_url: https://example.com/feed.xml
