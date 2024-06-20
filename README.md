@@ -87,7 +87,7 @@ tagged as `latest` for every new commit to the `main` branch, as well as with a
 release tag tracking every release of the gem on
 [rubygems.org](https://rubygems.org/gems/feed2thread). The images are hosted [here on GitHub's
 container
-registry](https://github.com/users/searls/packages/container/package/feed2threadd)
+registry](https://github.com/users/searls/packages/container/package/feed2thread)
 
 
 You can also use Docker to run this on your own automation platform like Proxmox or Kubernetes.
