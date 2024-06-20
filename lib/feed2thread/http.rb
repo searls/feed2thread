@@ -1,9 +1,9 @@
 require "net/http"
 require "json"
 
-module Feed2Gram
+module Feed2Thread
   class Http
-    BASE = "https://graph.facebook.com/v18.0".freeze
+    BASE = "https://graph.threads.net/v1.0".freeze
 
     def self.get(path, params = {})
       send(path, :get, params)

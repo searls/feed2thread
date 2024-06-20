@@ -1,38 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
-  <id>https://gram.betterwithbecky.com/syndications/grams</id>
-  <title>Beckygram</title>
-  <updated>2024-02-09T12:41:16Z</updated>
+  <id>https://justin.searls.co/short-form.xml</id>
+    <title>justin․searls․co - Short-form</title>
+  <updated>2024-06-19T21:03:34+00:00</updated>
   <author>
-    <name>Becky Searls</name>
-    <email>becky@betterwithbecky.com</email>
+      <name>Justin Searls</name>
+      <email>website@searls.co</email>
   </author>
-  <link href="https://gram.betterwithbecky.com/" rel="alternate" type="text/html" title="HTML"/>
-  <link href="https://gram.betterwithbecky.com/syndications/grams" rel="self" type="application/atom+xml" title="Grams"/>
-  <category term="Fitness"/>
-  <generator uri="https://rubyonrails.org/" version="0.119.0">
-Ruby on Rails  </generator>
-  <icon>https://gram.betterwithbecky.com/favicon.ico</icon>
-  <logo>https://static-cdn.betterwithbecky.com/assets/logo-fa728624cb9c92f3e052ee6b58a653d8e64fda32.png</logo>
-  <rights>Copyright Build with Becky LLC. All rights reserved.</rights>
-  <subtitle>What you're getting when you get Better with Becky.</subtitle>
+  <link href="https://justin.searls.co/" rel="alternate" type="text/html" title="HTML" />
+  <link href="https://justin.searls.co/short-form.xml" rel="self" type="application/atom+xml" title="Short-form" />
+  <category term="Software"/>
+  <generator uri="https://gohugo.io/" version="0.123.8">Hugo</generator>
+  <icon>https://justin.searls.co/favicon.ico</icon>
+  <logo>https://justin.searls.co/img/wide_logo.png</logo>
+  <rights>Copyright Justin Searls. All rights reserved.</rights>
+  <subtitle>Where Justin Searls is content to post content.</subtitle>
+
   <entry>
-    <id>https://gram.betterwithbecky.com/posts/1/whatever</id>
-    <title type="text">Test Title</title>
-    <link href="https://gram.betterwithbecky.com/posts/1/whatever" rel="alternate" type="text/html"/>
+    <id>https://justin.searls.co/takes/2024-06-19-17h02m32s/</id><title type="html"><![CDATA[I know the market isn’t amazing right now, but I’m thinking about finally learning how to code. Advice welcome.
+
+🔗 https://justin.searls.co/takes/2024-06-19-17h02m32s/]]></title>
+    <link href="https://justin.searls.co/takes/2024-06-19-17h02m32s/" rel="alternate" type="text/html" />
     <author>
-      <name>Becky Searls</name>
-      <email>becky@example.com</email>
+      <name>Justin Searls</name>
+      <email>website@searls.co</email>
     </author>
-    <published>2024-02-04T14:59:00Z</published>
-    <updated>2024-02-09T12:41:16Z</updated>
-    <content type="html"><![CDATA[
-      <figure data-post-type="post">
-        <img data-media-type="video" data-cover-url="https://upload.wikimedia.org/wikipedia/commons/7/7c/Aspect_ratio_16_9_example.jpg" src="https://static.videezy.com/system/resources/previews/000/032/359/original/MM008645___BOUNCING_FRUIT_009___1080p___phantom.mp4"/>"
-        <figcaption>
-          Nothing to see here. Just a test post.
-        </figcaption>
-      </figure>
-    ]]></content>
+    <published>2024-06-19T21:02:32+00:00</published>
+    <updated>2024-06-19T17:02:41-04:00</updated>
+    <content type="html"></content>
+  </entry>
+  <entry>
+    <id>https://justin.searls.co/posts/running-rails-system-tests-with-playwright-instead-of-selenium/</id>
+      <title type="text">Running Rails System Tests with Playwright instead of Selenium https://justin.searls.co/posts/running-rails-system-tests-with-playwright-instead-of-selenium/</title>
+    <link href="https://justin.searls.co/posts/running-rails-system-tests-with-playwright-instead-of-selenium/" rel="alternate" type="text/html" />
+    <author>
+      <name>Justin Searls</name>
+      <email>website@searls.co</email>
+    </author>
+    <published>2024-06-18T21:28:02+00:00</published>
+    <updated>2024-06-18T19:05:16-04:00</updated>
+    <content type="html"></content>
+  </entry>
+  <entry>
+    <id>https://justin.searls.co/takes/2024-06-17-15h31m38s/</id><title type="html"><![CDATA[This post is trending but it’s completely wrongheaded and misunderstands why test doubles were invented in the first place.
+
+I’d explain why, but it’s probably not worth my time. You’ve figured it out at this point or you haven’t https://www.amazingcto.com/mocking-is-an-antipattern-how-to-test-without-mocking/ ]]></title>
+    <link href="https://justin.searls.co/takes/2024-06-17-15h31m38s/" rel="alternate" type="text/html" />
+    <author>
+      <name>Justin Searls</name>
+      <email>website@searls.co</email>
+    </author>
+    <published>2024-06-17T19:31:38+00:00</published>
+    <updated>2024-06-17T15:33:19-04:00</updated>
+    <content type="html"></content>
   </entry>
 </feed>

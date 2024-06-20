@@ -1,7 +1,7 @@
 PATH
   remote: ..
   specs:
-    feed2gram (1.2.3)
+    feed2thread (1.0.0)
       nokogiri (~> 1.15)
 
 GEM
@@ -10,20 +10,20 @@ GEM
     base64 (0.2.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
-    nokogiri (1.16.2-aarch64-linux)
+    nokogiri (1.16.6-aarch64-linux)
       racc (~> 1.4)
-    nokogiri (1.16.2-arm-linux)
+    nokogiri (1.16.6-arm-linux)
       racc (~> 1.4)
-    nokogiri (1.16.2-arm64-darwin)
+    nokogiri (1.16.6-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.2-x86-linux)
+    nokogiri (1.16.6-x86-linux)
       racc (~> 1.4)
-    nokogiri (1.16.2-x86_64-darwin)
+    nokogiri (1.16.6-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.2-x86_64-linux)
+    nokogiri (1.16.6-x86_64-linux)
       racc (~> 1.4)
-    racc (1.7.3)
-    rack (3.0.9)
+    racc (1.8.0)
+    rack (3.1.3)
     rack-protection (4.0.0)
       base64 (>= 0.1.0)
       rack (>= 3.0.0, < 4)
@@ -51,9 +51,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  feed2gram!
+  feed2thread!
   rackup
   sinatra
 
 BUNDLED WITH
-   2.5.4
+   2.5.13

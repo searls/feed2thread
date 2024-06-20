@@ -2,6 +2,6 @@
 
 $LOAD_PATH.unshift("#{__dir__}/../lib")
 
-require "feed2gram"
+require "feed2thread"
 
-Feed2Gram.cli(ARGV)
+Feed2Thread.cli(ARGV)

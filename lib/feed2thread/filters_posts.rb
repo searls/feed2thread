@@ -1,4 +1,4 @@
-module Feed2Gram
+module Feed2Thread
   class FiltersPosts
     def filter(posts, cache)
       posts.reject { |post|

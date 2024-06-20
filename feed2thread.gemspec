@@ -1,13 +1,13 @@
-require_relative "lib/feed2gram/version"
+require_relative "lib/feed2thread/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "feed2gram"
-  spec.version = Feed2Gram::VERSION
+  spec.name = "feed2thread"
+  spec.version = Feed2Thread::VERSION
   spec.authors = ["Justin Searls"]
   spec.email = ["searls@gmail.com"]
 
-  spec.summary = "Reads an Atom feed and posts its entries to Instagram"
-  spec.homepage = "https://github.com/searls/feed2gram"
+  spec.summary = "Reads an Atom feed and posts its entries to Threads"
+  spec.homepage = "https://github.com/searls/feed2thread"
   spec.license = "GPL-3.0-or-later"
   spec.required_ruby_version = ">= 3.2"
 
@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir.chdir(__dir__) do
     `git ls-files -z`.split("\x0").reject do |f|
       (File.expand_path(f) == __FILE__) ||
-        f.start_with?(*%w[bin/ test/ spec/ features/ .git .circleci appveyor Gemfile])
+        f.start_with?(*%w[bin/ test/ spec/ features/ example/ .git .circleci appveyor Gemfile])
     end
   end
   spec.bindir = "exe"

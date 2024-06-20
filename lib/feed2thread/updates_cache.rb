@@ -1,4 +1,4 @@
-module Feed2Gram
+module Feed2Thread
   class UpdatesCache
     def update!(cache, results, options)
       cache.updated_at = Time.now

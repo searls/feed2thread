@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         ruby:
-          - '3.2.2'
+          - '3.3.2'
 
     steps:
     - uses: actions/checkout@v3
@@ -40,7 +40,7 @@ jobs:
         id: metadata
         with:
           images: |
-            ghcr.io/searls/feed2gram
+            ghcr.io/searls/feed2thread
           tags: |
             type=raw,value=latest,enable={{is_default_branch}}
             type=ref,event=pr

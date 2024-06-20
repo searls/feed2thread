@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in feed2gram.gemspec
+# Specify your gem's dependencies in feed2thread.gemspec
 gemspec
 
 gem "rake", "~> 13.0"

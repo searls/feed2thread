@@ -1,12 +1,12 @@
 require "yaml"
 require "time"
 
-module Feed2Gram
+module Feed2Thread
   Config = Struct.new(
     :feed_url,
-    :facebook_app_id,
-    :facebook_app_secret,
-    :instagram_id,
+    :threads_app_id,
+    :threads_app_secret,
+    :threads_user_id,
     :access_token,
     :access_token_refreshed_at,
     keyword_init: true

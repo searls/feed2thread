@@ -1,15 +1,15 @@
-require_relative "feed2gram/version"
-require_relative "feed2gram/http"
-require_relative "feed2gram/parses_options"
-require_relative "feed2gram/loads_config"
-require_relative "feed2gram/refreshes_token"
-require_relative "feed2gram/loads_cache"
-require_relative "feed2gram/parses_entries"
-require_relative "feed2gram/filters_posts"
-require_relative "feed2gram/publishes_posts"
-require_relative "feed2gram/updates_cache"
+require_relative "feed2thread/version"
+require_relative "feed2thread/http"
+require_relative "feed2thread/parses_options"
+require_relative "feed2thread/loads_config"
+require_relative "feed2thread/refreshes_token"
+require_relative "feed2thread/loads_cache"
+require_relative "feed2thread/parses_entries"
+require_relative "feed2thread/filters_posts"
+require_relative "feed2thread/publishes_posts"
+require_relative "feed2thread/updates_cache"
 
-module Feed2Gram
+module Feed2Thread
   class Error < StandardError; end
 
   def self.cli(argv)
